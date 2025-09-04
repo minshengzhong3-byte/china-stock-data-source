@@ -1,0 +1,21 @@
+# 核心依赖
+pandas>=1.3.0
+requests>=2.25.0
+numpy>=1.20.0
+
+# 可选依赖 - ABu量化框架
+# abupy>=0.4.0  # 如果需要ABu数据源，请取消注释
+
+# 可选依赖 - 数据处理
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# 开发依赖
+pytest>=6.0.0
+pytest-cov>=2.10.0
+flake8>=3.8.0
+black>=21.0.0
+
+# 文档依赖
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
